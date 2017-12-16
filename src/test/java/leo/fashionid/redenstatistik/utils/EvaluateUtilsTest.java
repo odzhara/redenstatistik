@@ -50,7 +50,7 @@ public class EvaluateUtilsTest {
      */
     @Test
     public void testFindMostSpeechesInYear() {
-        System.out.println("findMostSpeechesInYear");
+        System.out.println("testFindMostSpeechesInYear");
         int year = 2013;
         assertNull(EvaluateUtils.findMostSpeechesInYear(year, null));
         assertNull(EvaluateUtils.findMostSpeechesInYear(year, new ArrayList<>()));
@@ -96,7 +96,7 @@ public class EvaluateUtilsTest {
      */
     @Test
     public void testFindMostSpeechesByTheme() {
-        System.out.println("findMostSpeechesByTheme");
+        System.out.println("testFindMostSpeechesByTheme");
         String theme = "Innere Sicherheit";
         assertNull(EvaluateUtils.findMostSpeechesByTheme(theme, null));
         assertNull(EvaluateUtils.findMostSpeechesByTheme(theme, new ArrayList<>()));
@@ -123,7 +123,7 @@ public class EvaluateUtilsTest {
      */
     @Test
     public void testFindLeastWordySpeakers() {
-        System.out.println("findLeastWordySpeakers");
+        System.out.println("testFindMostSpeechesByTheme");
         assertNull(EvaluateUtils.findLeastWordySpeakers(null));
         assertNull(EvaluateUtils.findLeastWordySpeakers(new ArrayList<>()));
         List<RedeMetadaten> speechList = new ArrayList<>();
