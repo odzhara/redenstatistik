@@ -17,6 +17,7 @@ Windows/Linux, Java 8, Maven 3xx
 ## Installation
 
 **BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
+
 to build the project run
 ```bash
 mvn package
@@ -29,7 +30,7 @@ build.cmd
 
 ## Usage
 
-To run a project after it was [built](#installation)
+To run a project after it was [installed](#installation)
 ```bash
 java -jar target/redenstatistik-0.0.1-SNAPSHOT.jar
 ```
