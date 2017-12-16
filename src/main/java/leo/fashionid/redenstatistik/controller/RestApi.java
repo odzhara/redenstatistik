@@ -34,7 +34,7 @@ public class RestApi {
             response = service.evaluateSpeeches(urls);
         } catch (Exception e) {
             response = new EvaluationResponse();
-            response.setError(e.getMessage());
+            response.setError("Exception was thrown while evalating speech statistic: " + e.getMessage());
             LOGGER.error("Exception was thrown while evalating speech statistic", e);
         }
         return response;
